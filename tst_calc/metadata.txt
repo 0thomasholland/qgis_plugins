@@ -1,0 +1,21 @@
+[general]
+name=TST Calc
+qgisMinimumVersion=3.0
+description=Calculate true stratigraphic thickness between two points given strike and dip
+version=0.1
+author=Thomas Holland
+email=thomas@thomasholland.uk
+
+about=This plugin calculates the true stratigraphic thickness between two points in 3D space given the strike and dip of the plane.
+
+tracker=https://github.com/0thomasholland/qgis_plugins/issues
+repository=https://github.com/0thomasholland/qgis_plugins
+homepage=https://github.com/0thomasholland/qgis_plugins
+
+tags=geology, stratigraphy
+
+category=Plugins
+icon=icon.png
+
+experimental=False
+deprecated=False

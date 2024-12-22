@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TSTCalcDialogBase</class>
+ <widget class="QDialog" name="TSTCalcDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TST Calculator</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="planeGroupBox">
+     <property name="title">
+      <string>Plane Orientation</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="strikeLabel">
+        <property name="text">
+         <string>Strike (0-360°):</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="strikeInput"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="dipLabel">
+        <property name="text">
+         <string>Dip (0-90°):</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="dipInput"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="point1GroupBox">
+     <property name="title">
+      <string>Point 1 (UTM Coordinates)</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="x1Label">
+        <property name="text">
+         <string>X (Easting):</string>
+        </property>
+       </widget>
+      </item>
